@@ -72,8 +72,6 @@ public class ShadowEdge extends SwordItem {
         if (!level.isClientSide) {
             boolean isInShadowMode = isInShadowMode(itemStack);
 
-            level.broadcastEntityEvent(player, (byte)35);
-
             if (!isInShadowMode) {
                 setShadowMode(itemStack, true);
                 setAnimationState(itemStack, AnimationState.ACTIVE);

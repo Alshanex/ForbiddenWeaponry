@@ -7,8 +7,8 @@
 				"texture_width": 128,
 				"texture_height": 128,
 				"visible_bounds_width": 3,
-				"visible_bounds_height": 4.5,
-				"visible_bounds_offset": [0, 1.75, 0]
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
 			},
 			"bones": [
 				{
@@ -274,7 +274,7 @@
 								"north": {"uv": [0, 0], "uv_size": [0, 46]},
 								"east": {"uv": [18, 0], "uv_size": [-18, 46]},
 								"south": {"uv": [0, 0], "uv_size": [0, 46]},
-								"west": {"uv": [35, 0], "uv_size": [-17, 46]},
+								"west": {"uv": [36, 0], "uv_size": [-18, 46]},
 								"up": {"uv": [0, 18], "uv_size": [0, -18]},
 								"down": {"uv": [0, 0], "uv_size": [0, 18]}
 							}

@@ -18,7 +18,7 @@ public final class ForbiddenWeaponryMod {
     }
 
     public static void initClient() {
-        AzItemRendererRegistry.register(ShadowEdgeItemRenderer::new, ItemRegistry.SHADOW_EDGE.get());
+        AzItemRendererRegistry.register(ItemRegistry.SHADOW_EDGE.get(), ShadowEdgeItemRenderer::new);
     }
 
     public static void initAzIdentityRegistry() {
