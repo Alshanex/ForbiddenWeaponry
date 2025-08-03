@@ -34,6 +34,11 @@ subprojects {
             name = 'ParchmentMC'
             url = 'https://maven.parchmentmc.org'
         }
+
+        maven { url 'https://maven.azuredoom.com/mods' }
+        maven {
+            url "https://cursemaven.com"
+        }
     }
 
     loom {

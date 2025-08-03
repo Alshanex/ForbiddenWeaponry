@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.alshanex.fabric.ExampleModFabric"
+      "net.alshanex.fabric.ForbiddenWeaponryModFabric"
     ],
     "client": [
       "net.alshanex.fabric.client.ExampleModFabricClient"

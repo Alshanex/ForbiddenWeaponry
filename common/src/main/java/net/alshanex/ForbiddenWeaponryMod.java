@@ -1,6 +1,6 @@
 package net.alshanex;
 
-public final class ExampleMod {
+public final class ForbiddenWeaponryMod {
     public static final String MOD_ID = "forbidden_weaponry";
 
     public static void init() {
