@@ -19,7 +19,7 @@
       "net.alshanex.fabric.ForbiddenWeaponryModFabric"
     ],
     "client": [
-      "net.alshanex.fabric.client.ExampleModFabricClient"
+      "net.alshanex.fabric.client.ForbiddenWeaponryModFabricClient"
     ]
   },
   "mixins": [

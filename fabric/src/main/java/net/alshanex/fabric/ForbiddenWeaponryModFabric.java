@@ -13,5 +13,6 @@ public final class ForbiddenWeaponryModFabric implements ModInitializer {
 
         // Run our common setup.
         ForbiddenWeaponryMod.init();
+        ForbiddenWeaponryMod.initAzIdentityRegistry();
     }
 }
