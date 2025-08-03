@@ -8,22 +8,22 @@ import net.minecraft.world.item.ItemStack;
 public class ShadowEdgeDispatcher {
 
     private static final AzCommand ACTIVATION_COMMAND = AzCommand.create(
-            "controller",
+            "base_controller",
             "activation",
             AzPlayBehaviors.HOLD_ON_LAST_FRAME);
 
     private static final AzCommand ACTIVE_COMMAND = AzCommand.create(
-            "controller",
+            "base_controller",
             "active",
             AzPlayBehaviors.LOOP);
 
     private static final AzCommand DEACTIVATION_COMMAND = AzCommand.create(
-            "controller",
+            "base_controller",
             "deactivation",
             AzPlayBehaviors.HOLD_ON_LAST_FRAME);
 
     private static final AzCommand INACTIVE_COMMAND = AzCommand.create(
-            "controller",
+            "base_controller",
             "inactive",
             AzPlayBehaviors.LOOP);
 
